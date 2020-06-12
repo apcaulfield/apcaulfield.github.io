@@ -1,0 +1,25 @@
+body {
+	background-image: url("gradient_bg.png");
+	background-repeat: repeat-x;
+	font-family: 'Montserrat';
+}
+section.jumbotron {
+	width: 1200px;
+	height: 250px;
+	border-radius: 5px;
+	background-color: rgb(207,232,220);
+	padding: 1em;
+	background-image: url("icon.png");
+	background-position: right;
+	background-repeat: no-repeat;
+}
+section.director {
+	background-image: url("logo1.png");
+	background-position: right;
+	background-repeat: no-repeat;
+}
+section.faculty {
+	background-image: url("logo2.png");
+	background-position: right;
+	background-repeat: no-repeat;
+}

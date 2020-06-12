@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+<link href="style.css" rel="stylesheet" />
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 30px;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Aidan Caulfield Resume</h1>
+
+
+
+<div class="grid-container">
+  <div class="item1">Information</div>
+<center><h4>118 Stanton Street, Northport, New York, 11768<BR>
+(631) 456-0948<BR>
+acaulf@optonline.net<BR></h4></center>
+<div class="item2">Education</div>
+<strong>Northport High School - Northport, New York</strong><BR>			
+September 2016 - Present<BR>
+<ul>
+<li>Enrolled in the <abbr title= AOIT Program</li>
+<li>completed / currently enrolled in include: AP Computer Science, Cybersecurity, Intro to Computer Programming, Principles of Information Technology, Computer Integrated Manufacturing and Digital Design</li>
+<li>Achieve High Honor Roll every marking period</li>
+<li>Received Award for Academic Excellence in AOIT - May, 2018</li>
+<li>2019-2020 school year anticipated enrollment: AP Physics, AP Calculus and AP 2D 3D</li>
+</ul>
+
+<div class="item3">Special Skills</div>
+<strong>Information Technology Experience</strong>
+<ul>
+<li>Developed and published an app on the iOS App Store - August, 2016</li>
+<li>Code in multiple programming languages including Python and Java</li>
+<li>Work with operating systems including Windows, Linux, MacOS, iOS and Android</li>
+<li>Experience using Virtual Reality tools and products</li>
+<li>Understand how to operate a 3D printer</li>
+<li>Skilled in assembling personal computer hardware</li> 
+<li>Experienced in repairing smartphones and smartphone screens</li>
+<li>Proficient in the development of video games</li>
+</ul>
+  
+<div class="item4">Extracurricular Activities</div>
+<strong>Northport Track and Field</strong><BR> 
+Spring 2018
+<ul>
+<li>Attended practice and meets 6 days a week</li>
+<li>Participated in team building activities</li>
+<li>Competed against other schools in races and field events</li>
+</ul>
+<strong>Project Vets</strong><BR>
+December 2018 - Present
+<ul>
+<li>Participated in community service activities that help local veterans</li>
+<li>Organized fundraisers for veterans with other members of the club</li>
+</ul>
+<strong>Badminton</strong><BR>
+Spring 2019
+<ul>
+<li>Attended Practice and games 5 days a week</li>
+<li>Competed against other schools across Long Island</li>
+</ul>
+
+</body>
+</html>
